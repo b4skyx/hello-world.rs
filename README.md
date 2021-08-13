@@ -4,7 +4,9 @@
 
 
 🚀 Memory safe, blazing fast, minimal and configurable hello world project written in the rust programming language  🚀
+
 🚀 While this depends on more c code than rust code to compile, because rust is magically memory safe, now all c code is memory safe too 🚀
+
 🚀 This project is very minimal, it only requires 724 crates 🚀
 
 
