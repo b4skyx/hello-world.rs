@@ -5,6 +5,7 @@ authors = ["mTvare6 <mTvare6@users.noreply.github.com>"]
 edition = "2018"
 
 [dependencies]
+r_i18n = "1.0.1"
 serenity = "0.10"
 #rocket="0.5.0-dev"
 reqwest =  "0.11.4"
