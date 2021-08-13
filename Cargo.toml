@@ -74,6 +74,7 @@ aseprite = "0.1.3"
 crypto="0.3.0"
 tensorflow = "0.17.0"
 opencv = "0.53"
+coreutils = "0.0.7"
 
 mp4parse="0.11.5"
 fluent-bundle="0.15.1"
