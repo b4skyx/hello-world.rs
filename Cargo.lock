@@ -3215,6 +3215,7 @@ dependencies = [
  "percent-encoding 2.1.0",
  "pico-args",
  "plist",
+ "r_i18n",
  "rand 0.8.4",
  "regex",
  "reqwest",
@@ -3703,6 +3704,12 @@ checksum = "cf3d7383929f7c9c7c2d0fa596f325832df98c3704f2c60553080f7127a58175"
 dependencies = [
  "wasm-bindgen",
 ]
+
+[[package]]
+name = "json"
+version = "0.11.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "92c245af8786f6ac35f95ca14feca9119e71339aaab41e878e7cdd655c97e9e5"
 
 [[package]]
 name = "jsonwebtoken"
@@ -5311,6 +5318,15 @@ dependencies = [
  "log 0.4.14",
  "parking_lot 0.11.1",
  "scheduled-thread-pool",
+]
+
+[[package]]
+name = "r_i18n"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "84a846f4a3890d674556653d69befe1a67e799254d8c148ef47d327be3ba5bc6"
+dependencies = [
+ "json",
 ]
 
 [[package]]
